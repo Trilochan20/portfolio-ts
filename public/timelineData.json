@@ -1,0 +1,191 @@
+[
+  {
+    "time": "June 2017 to May 2018",
+    "title": "Ethnic Republic",
+    "body": [
+      "Acquired proficiency in HTML, CSS, and JavaScript fundamentals. Gained hands-on experience in deploying and managing CMS platforms, specifically WordPress and OpenCart, on Apache servers. Successfully integrated the PayPal payment gateway and developed a custom-designed blog.",
+      "Engineered an OpenCart-based e-commerce platform for EthnicRepublic, specializing in hand-painted sarees and ethnic apparel."
+    ]
+  },
+  {
+    "time": "January 2018",
+    "title": "ShreeMarbles.in",
+    "body": [
+      "Developed a comprehensive static website for ShreeMarbles in January 2018.",
+      "Implemented Google AMP (Accelerated Mobile Pages) technology, optimizing web pages for enhanced loading speed and performance on mobile devices.",
+      "The ShreeMarbles project facilitated significant advancement in web development skills and provided insights into mobile-first optimization strategies."
+    ]
+  },
+  {
+    "time": "May 2018 to December 2018",
+    "title": "Ethnic Republic",
+    "body": [
+      "Expanded technical skills to include React and Firebase. Executed a complete overhaul of the Ethnic Republic website using React, migrating the e-commerce platform from OpenCart to a React-Firebase architecture.",
+      "Implemented state management using React's Context API, gaining proficiency in handling complex application states. Explored Single Page Application (SPA) architecture and its SEO implications.",
+      "Acquired knowledge in technical SEO fundamentals. To enhance performance and SEO, migrated the entire e-commerce platform from Create React App (CRA) to server-side rendering (SSR) using Create Razzle App.",
+      "Successfully integrated the PayUMoney payment gateway, ensuring secure and efficient transactions for customers."
+    ]
+  },
+  {
+    "time": "October 2018",
+    "title": "Input Output Electronics",
+    "body": [
+      "Collaborated with Input Output Electronics in October 2018, focusing on WordPress and WooCommerce implementation to enhance their online presence and e-commerce capabilities.",
+      "Optimized the website for improved user experience and implemented Cash on Delivery (COD) payment method to diversify payment options."
+    ]
+  },
+  {
+    "time": "December 2018",
+    "title": "Abtris Consulting",
+    "body": [
+      "Developed Abtris Consulting's website in December 2018, focusing on enhancing online presence and user engagement through an interactive contact form.",
+      "Utilized HTML, CSS, and jQuery to create a visually appealing and functional website. Integrated JavaScript libraries such as Particle.js and Owl Carousel to implement dynamic and interactive elements.",
+      "This project facilitated the refinement of front-end development skills and exploration of innovative user engagement techniques in web design."
+    ]
+  },
+  {
+    "time": "December 2018",
+    "title": "CraftCollaz.org",
+    "body": [
+      "Engaged with CraftCollaz in December 2018, specializing in WordPress-based solutions. Focused on WordPress development and e-commerce implementations using WordPress, WooCommerce, and Elementor.",
+      "Leveraged Elementor's drag-and-drop interface to create multiple custom pages, enhancing design flexibility and customization capabilities.",
+      "Integrated PayPal payment gateway to facilitate secure online transactions. This project enhanced proficiency in WordPress development and expanded knowledge in e-commerce solutions and payment gateway integration."
+    ]
+  },
+  {
+    "time": "January 2019 - March 2019",
+    "title": "QR Menus For Restaurants",
+    "body": [
+      "From January to March 2019, contributed to the development of QR Menus For Restaurants, an innovative solution for streamlining dining experiences. Responsibilities included front-end development utilizing Google-AMP (Accelerated Mobile Pages) for optimized performance.",
+      "Implemented Firebase as the database solution, ensuring real-time data synchronization and seamless updates. Developed a React-based dashboard with menu editing functionalities, providing restaurant owners with an efficient interface for menu management.",
+      "This project enhanced skills in front-end technologies and real-time database management, particularly in creating responsive and high-performance web applications."
+    ]
+  },
+  {
+    "time": "June 2019 - September 2019",
+    "title": "Experience Edge",
+    "body": [
+      "Acquired proficiency in GatsbyJS for high-performance website development. Successfully engineered a high-speed, responsive website for a real estate company, demonstrating expertise in GatsbyJS and UI design principles.",
+      "Explored D3.js for data visualization, expanding capabilities in creating interactive and informative data representations for web applications."
+    ]
+  },
+  {
+    "time": "November 2019",
+    "title": "Petandics",
+    "body": [
+      "In November 2019, developed an e-commerce solution for Petandics, a company specializing in handmade pet portraits.",
+      "Implemented WordPress and WooCommerce to create a user-friendly and efficient e-commerce platform. Integrated the Stripe payment gateway to ensure secure and seamless transactions.",
+      "This project showcased expertise in e-commerce development and WordPress customization for niche markets."
+    ]
+  },
+  {
+    "time": "April 2020 - January 2021",
+    "title": "Reading Bharat",
+    "body": [
+      "Developed \"Reading Bharat,\" an online library offering books in various Indian languages including Odia, Hindi, Marathi, Tamil, Telugu, and Malayalam.",
+      "Utilized GatsbyJS and Next.js for front-end development and integrated PDF.js for in-browser PDF rendering.",
+      "Implemented a tech stack including React for UI, Firestore for data storage, and AWS services (S3, Lambda, Route53, CloudFront) for hosting and content delivery. Gained proficiency in Python programming and AWS Lambda functions.",
+      "Deployed the site on AWS infrastructure, configuring S3 for file storage, CloudFront for content delivery, Lambda for serverless functions, and Route53 for custom domain management with SSL. Developed Lambda functions to prevent Google indexing of PDF files in S3.",
+      "Implemented server-side rendering (SSR) using Next.js to enhance SEO for individual books. Utilized Google Search Console for managing page indexing and error handling, significantly improving technical SEO skills."
+    ]
+  },
+  {
+    "time": "January 2021",
+    "title": "No Touch Menu",
+    "body": [
+      "In January 2021, developed the \"No Touch Menu\" project, an evolution of the previously created QR menu using Google AMP.",
+      "Leveraged Gatsby and React to create a high-performance QR menu. Achieved sub-second loading times even on 3G connections. The website attained exceptional Lighthouse scores, with most categories scoring 100 or 99."
+    ]
+  },
+  {
+    "time": "March 2021 - Present",
+    "title": "Unstoppable: Mindset Builder",
+    "body": [
+      "Since March 2021, have been involved in the development of \"Unstoppable: Mindset Builder,\" a cross-platform application designed for positive mindset cultivation. The app categorizes quotes from renowned personalities into various motivational themes.",
+      "Developed the web component using NextJS, creating dynamic category pages showcasing quotes from different authors, books, and topic tags. These pages provide users with a curated motivational experience.",
+      "Engineered an extensive admin dashboard enabling quote management by category, addition of new books, authors, and topic tags, and user account oversight. Implemented features for creating dynamic marketing links and bulk quote uploads.",
+      "Expanded technical skills to include SQL basics and BigQuery for analytics, PostgreSQL and Supabase for data management, and NodeJs for custom cloud functions to enhance platform functionality."
+    ]
+  },
+  {
+    "time": "August 2021",
+    "title": "Madbikers",
+    "body": [
+      "In August 2021, developed the \"Madbikers.in\" e-commerce platform using WordPress and WooCommerce. Implemented Elementor for intuitive design and user experience.",
+      "Integrated the Paytm payment gateway to ensure secure transactions and enhance user trust."
+    ]
+  },
+  {
+    "time": "October 2021 - Present",
+    "title": "MyFoodBook",
+    "body": [
+      "In October 2021, developed \"MyFoodBook,\" a platform enabling users to create accounts and share recipes.",
+      "Engineered the front-end application using GatsbyJS and Chakra UI, focusing on user interface optimization. Developed a user dashboard using Vite and React with Ant Design components for a seamless user experience. Implemented Firebase for data management."
+    ]
+  },
+  {
+    "time": "January 2022 - April 2022",
+    "title": "Banner Magic",
+    "body": [
+      "From January to April 2022, developed \"Banner Magic,\" a platform enabling users to connect Shopify stores, retrieve product details and images, and generate marketing banners for various platforms.",
+      "Implemented Flask for API development, acquired skills in image manipulation techniques, and gained expertise in deploying Python Flask applications on Heroku. Utilized Firestore for data management and NextJS for creating a responsive front-end."
+    ]
+  },
+  {
+    "time": "February 2022 - Ongoing",
+    "title": "Zombieverse",
+    "body": [
+      "In February 2022, initiated development on the Zombieverse project, a cutting-edge application integrating NextJS, React, Web3, cryptocurrency, and NFT technologies.",
+      "Engineered a platform enabling users to collect and trade NFTs in a gamified environment. Leveraged NextJS and React to develop a responsive and interactive user interface. Integrated Web3 technology to ensure secure transactions and NFT ownership verification.",
+      "Implemented Lottie animations to enhance visual appeal and user engagement. Integrated Metamask to facilitate secure cryptocurrency transactions, making Zombieverse a technically advanced addition to the portfolio."
+    ]
+  },
+  {
+    "time": "February 2023 - June 2023",
+    "title": "Fresh Findings",
+    "body": [
+      "From February to June 2023, developed \"Fresh Findings,\" an online platform specializing in exotic fruits and vegetables.",
+      "Utilized WordPress, WooCommerce, and Elementor to create a dynamic and user-friendly e-commerce website. Leveraged these technologies to provide an exceptional online shopping experience for customers interested in exotic produce.",
+      "This project demonstrates expertise in WordPress development and e-commerce solutions, showcasing the ability to craft compelling and functional websites for unique marketplaces."
+    ]
+  },
+  {
+    "time": "June 2023 - February 2024",
+    "title": "Stock Analysis App",
+    "body": [
+      "From June 2023 to February 2024, developed the Stock Analysis App project.",
+      "Implemented React Native for mobile app development, exploring cross-platform capabilities. Utilized FastAPI in Python, leveraging its performance advantages over Flask. Successfully deployed the FastAPI application to a rendering platform.",
+      "This project demonstrates expanding expertise in mobile app development and backend technologies, reflecting a commitment to adopting emerging tech trends."
+    ]
+  },
+  {
+    "time": "October 2023 to November 2023",
+    "title": "Bandita's Healing Space",
+    "body": [
+      "Developed Bandita's Healing Space, a WordPress website serving as an online portfolio and platform for a Psychologist. The site showcases services, enables client connectivity through form submissions, and includes a blog for sharing insights and updates.",
+      "This project demonstrates proficiency in WordPress development, particularly in creating user-centric websites tailored to specific business needs. Implemented Contact Form 7 and other plugins to ensure a seamless experience for both the psychologist and their clients."
+    ]
+  },
+  {
+    "time": "August 2023 - April 2024",
+    "title": "Circles",
+    "body": [
+      "Initiated development on the Circles project in August 2023.",
+      "This project involved an in-depth exploration of Flutter for cross-platform mobile application development. Concurrently expanded skillset to include UI/UX design using Figma, enhancing capabilities in creating visually appealing and user-friendly interfaces.",
+      "Circles exemplifies ongoing technical skill expansion and exploration of new development and design technologies."
+    ]
+  },
+  {
+    "time": "February 2024 - Ongoing",
+    "title": "Mobile Aspects",
+    "body": [
+      "In February 2024, initiated work on the Mobile Aspects project, focusing on comprehensive WordPress site optimization and migration.",
+      "Key accomplishments include:",
+      "Executed a full WordPress upgrade, including theme modernization and plugin updates.",
+      "Implemented a complete UI/UX overhaul, resulting in a contemporary and visually appealing design.",
+      "Optimized site performance, achieving a 50% reduction in load times through various technical improvements.",
+      "Successfully migrated the entire WordPress installation from the original hosting service to a new provider, ensuring minimal downtime and data integrity.",
+      "This project showcases proficiency in WordPress development, performance optimization, and seamless hosting migrations."
+    ]
+  }
+]
