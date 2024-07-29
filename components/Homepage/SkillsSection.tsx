@@ -92,15 +92,15 @@ const MySkills: React.FC = () => {
   ];
 
   return (
-    <div className="flex flex-col md:flex-row w-full">
-      <div id="skill" className="w-full md:w-1/2 p-4">
+    <div className="flex flex-col md:flex-row w-full mx-auto max-w-screen-2xl px-4 md:px-8">
+      <div id="skill" className="w-full md:w-1/2 py-4">
         <div>
           <div className="flex flex-col w-full mt-4">
             <h3 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
               My Skills
             </h3>
 
-            <p className="max-w-2xl py-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300 ">
+            <p className="max-w-2xl py-4 pr-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300 ">
               {data.desc}
             </p>
           </div>
@@ -115,7 +115,7 @@ const MySkills: React.FC = () => {
         </div>
       </div>
 
-      <div className="w-full md:w-1/2 p-4">
+      <div className="w-full md:w-1/2 py-4">
         <div className="flex flex-col ">
           {skills.map((skill, index) => (
             <SkillBar
