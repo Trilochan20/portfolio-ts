@@ -24,7 +24,7 @@ const SectionHeader: React.FC<SectionHeaderProps> = ({
             <h2 className="mb-3 text-3xl font-bold leading-[1.2] text-dark dark:text-white sm:text-4xl md:text-[40px]">
               {title}
             </h2>
-            <p className="text-base text-body-color dark:text-dark-6">
+            <p className="text-base text-body-color dark:text-dark-6 text-pretty">
               {children}
             </p>
           </div>
