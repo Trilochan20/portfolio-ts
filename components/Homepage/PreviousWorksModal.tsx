@@ -76,7 +76,7 @@ const Zombieverse: React.FC = () => {
         controls
       ></video>
 
-      <p className="text-md leading-[1.75rem] mb-6 font-jose">
+      <p className="text-md leading-[1.75rem] mb-6 ">
         Zombieverse.gg is a unique and cutting-edge project that combines React,
         NFTs, and Web3 technology. This web application represents my venture
         into the world of blockchain and decentralized applications.
@@ -89,7 +89,7 @@ const Zombieverse: React.FC = () => {
       </p>
       <div className="mt-6">
         <h4 className="text-lg font-semibold mb-2">Key Features:</h4>
-        <ul className="list-disc list-inside ml-6 mb-6 font-jose">
+        <ul className="list-disc list-inside ml-6 mb-6 ">
           <li className="mb-2 leading-[2rem]">
             <span className="font-semibold border-b-2">React and Next.js:</span>{" "}
             The backbone of Zombieverse.gg is built upon React and Next.js,
@@ -144,7 +144,7 @@ const BanditasHealingSpace: React.FC = () => {
         alt="Bandita's Healing Space"
       />
       <br />
-      <p className="text-md leading-[1.75rem] mb-6 font-jose">
+      <p className="text-md leading-[1.75rem] mb-6 ">
         Banditas Healing Space is a WordPress website that serves as an online
         portfolio and platform for a healing practitioner. It showcases their
         services, allows clients to connect and submit forms, and provides a
@@ -157,7 +157,7 @@ const BanditasHealingSpace: React.FC = () => {
       <div className="mt-6">
         <h4 className="text-lg font-semibold mb-2">Key Features:</h4>
         <ul className="list-disc list-inside ml-6 mb-6">
-          <ul className="list-disc list-inside ml-6 font-jose">
+          <ul className="list-disc list-inside ml-6 ">
             <li>Portfolio and service showcase</li>
             <li>Client contact and form submissions</li>
             <li>WordPress-based platform</li>
@@ -179,7 +179,7 @@ const Circles: React.FC = () => {
     <div>
       <Image src="/circles.png" width={1280} height={720} alt="Circles" />
       <br />
-      <p className="text-md leading-[1.75rem] mb-6 font-jose">
+      <p className="text-md leading-[1.75rem] mb-6 ">
         Circles is an ongoing Flutter project that showcases my expertise in
         cross-platform mobile app development. This innovative app aims to
         create a decentralized marketplace experience by integrating Web3 and
@@ -202,7 +202,7 @@ const Circles: React.FC = () => {
         <h4 className="text-lg font-semibold mb-2">Key Features:</h4>
         <ul className="list-disc list-inside ml-6 mb-6">
           <br />
-          <ul className="list-disc list-inside ml-6 font-jose">
+          <ul className="list-disc list-inside ml-6 ">
             <li>Cross-platform Flutter app (Android and iOS)</li>
             <li>Web3 and WalletConnect integration</li>
             <li>NFT marketplace</li>
