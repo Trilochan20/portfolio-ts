@@ -1,6 +1,6 @@
 import React from "react";
-import { MdEmail } from "react-icons/md";
-import { FaXTwitter, FaLinkedin } from "react-icons/fa6";
+// import { MdEmail } from "react-icons/md";
+// import { FaXTwitter, FaLinkedin } from "react-icons/fa6";
 import SectionHeader from "../layout/SectionHeader";
 
 const ContactMe: React.FC = () => {
