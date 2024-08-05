@@ -11,6 +11,13 @@ export const metadata: Metadata = {
   title: "Trilochan Satapathy",
   description:
     "Trilochan Satapathy | React | Nextjs | Tailwind | Developer | Freelancer for hire",
+  icons: [
+    { rel: "favicon", url: "/favicon-16x16.png" },
+    { rel: "icon", url: "/favicon-32x32.png" },
+    { rel: "apple-touch-icon", url: "/apple-touch-icon.png" },
+    { rel: "android-chrome", url: "/android-chrome-192x192.png" },
+    { rel: "android-chrome", url: "/android-chrome-512x512.png" },
+  ],
 };
 
 export default function RootLayout({
@@ -20,6 +27,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body className={lora.className}>
         <Providers>
           <NavBar />
