@@ -14,10 +14,7 @@ const PreviousWorkSection: React.FC = () => {
         projects. Here's a glimpse of some remarkable work I've been a part of:
       </SectionHeader>
 
-      <div
-        id="work"
-        className="mx-auto max-w-screen-2xl px-4 md:px-8 grid gap-10 lg:grid-cols-2 xl:grid-cols-3"
-      >
+      <div className="mx-auto max-w-screen-2xl px-4 md:px-8 grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
         <Spotlight className="lg:col-span-2 xl:col-auto">
           <SpotlightCard
             className="flex flex-col justify-between w-full h-full 
@@ -123,13 +120,12 @@ interface MarkProps {
 const Mark: React.FC<MarkProps> = (props) => {
   return (
     <>
-      {" "}
       <mark
         className="text-indigo-800 bg-indigo-100 rounded-md font-semibold
       ring-indigo-100 ring-4 dark:ring-indigo-900 dark:bg-indigo-900 dark:text-indigo-200"
       >
         {props.children}
-      </mark>{" "}
+      </mark>
     </>
   );
 };
