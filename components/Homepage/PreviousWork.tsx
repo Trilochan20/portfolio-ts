@@ -1,4 +1,5 @@
 import SectionHeader from "../layout/SectionHeader";
+import Spotlight, { SpotlightCard } from "../layout/SpotlightSection";
 
 const PreviousWorkSection: React.FC = () => {
   return (
@@ -17,10 +18,10 @@ const PreviousWorkSection: React.FC = () => {
         id="work"
         className="mx-auto max-w-screen-2xl px-4 md:px-8 grid gap-10 lg:grid-cols-2 xl:grid-cols-3"
       >
-        <div className="lg:col-span-2 xl:col-auto">
-          <div
+        <Spotlight className="lg:col-span-2 xl:col-auto">
+          <SpotlightCard
             className="flex flex-col justify-between w-full h-full 
-          bg-gray-100 px-14 rounded-2xl py-14 dark:bg-gray-800/25"
+          bg-gray-100 px-14 rounded-2xl py-14 dark:bg-gray-800/25 "
           >
             <h3 className="text-2xl font-bold tracking-widest mb-6">
               Zombieverse.gg
@@ -43,21 +44,21 @@ const PreviousWorkSection: React.FC = () => {
               </ul>
             </div>
             <br /> <br />
-            {/* <MyPreviousWorksModal title="Zombieverse" /> */}
-          </div>
-        </div>
+            <MyPreviousWorksModal title="Zombieverse" />
+          </SpotlightCard>
+        </Spotlight>
 
-        <div>
-          <div
+        <Spotlight>
+          <SpotlightCard
             className="flex flex-col justify-between w-full h-full 
-          bg-gray-100 px-14 rounded-2xl py-14 dark:bg-gray-800/25"
+          bg-gray-100 px-14 rounded-2xl py-14 dark:bg-gray-800/25  "
           >
             <h3 className="text-2xl font-bold tracking-widest mb-6">
               Bandita's Healing Space
-              {/* <sup className="text-xs dark:text-orange-400 text-orange-700">
+              <sup className="text-xs dark:text-orange-400 text-orange-700">
                 {" "}
                 [finished]
-              </sup> */}
+              </sup>
             </h3>
             <p className="text-lg leading-normal font-jose">
               Developed <Mark>Bandita's Healing Space</Mark>, a portfolio and
@@ -72,12 +73,15 @@ const PreviousWorkSection: React.FC = () => {
               </ul>
             </div>
             <br /> <br />
-            {/* <MyPreviousWorksModal title="Bandita's Healing Space" /> */}
-          </div>
-        </div>
+            <MyPreviousWorksModal title="Bandita's Healing Space" />
+          </SpotlightCard>
+        </Spotlight>
 
-        <div>
-          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-gray-800/25">
+        <Spotlight>
+          <SpotlightCard
+            className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14
+           dark:bg-gray-800/25 "
+          >
             <h3 className="text-2xl font-bold tracking-widest mb-6">
               Circles
               <sup className="text-xs dark:text-orange-400 text-orange-700">
@@ -101,15 +105,16 @@ const PreviousWorkSection: React.FC = () => {
               </ul>
             </div>
             <br /> <br />
-            {/* <MyPreviousWorksModal title="Circles" /> */}
-          </div>
-        </div>
+            <MyPreviousWorksModal title="Circles" />
+          </SpotlightCard>
+        </Spotlight>
       </div>
     </section>
   );
 };
 
 import React from "react";
+import MyPreviousWorksModal from "./PreviousWorksModal";
 
 interface MarkProps {
   children: React.ReactNode;
@@ -120,7 +125,7 @@ const Mark: React.FC<MarkProps> = (props) => {
     <>
       {" "}
       <mark
-        className="text-indigo-800 bg-indigo-100 rounded-md 
+        className="text-indigo-800 bg-indigo-100 rounded-md font-semibold
       ring-indigo-100 ring-4 dark:ring-indigo-900 dark:bg-indigo-900 dark:text-indigo-200"
       >
         {props.children}
