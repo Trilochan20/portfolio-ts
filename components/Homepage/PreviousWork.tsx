@@ -87,9 +87,9 @@ const PreviousWorkSection: React.FC = () => {
               </sup>
             </h3>
             <p className="text-lg leading-normal font-jose">
-              Developed Circles, an ongoing project on Flutter for both Android
-              and iOS. Includes Web3 integration, WalletConnect integration, and
-              a Web3 marketplace.
+              Developed <Mark>Circles</Mark>, an ongoing project on Flutter for
+              both Android and iOS. Includes Web3 integration, WalletConnect
+              integration, and a Web3 marketplace.
             </p>
             <div className="mt-6">
               <h4 className="text-lg font-semibold">Tech Stack</h4>

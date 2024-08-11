@@ -55,7 +55,7 @@ const Timeline: React.FC = () => {
   return (
     <section className="my-12 mx-auto">
       <SectionHeader
-        id="journey"
+        id="experience"
         pretitle="The Journey"
         title="My Learning Experience"
       >
