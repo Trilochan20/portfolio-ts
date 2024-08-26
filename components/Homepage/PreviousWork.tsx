@@ -82,7 +82,6 @@ const PreviousWorkSection: React.FC = () => {
             <h3 className="text-2xl font-bold tracking-widest mb-6">
               Circles
               <sup className="text-xs dark:text-orange-400 text-orange-700">
-                {" "}
                 [ongoing]
               </sup>
             </h3>

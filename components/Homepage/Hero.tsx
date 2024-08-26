@@ -1,9 +1,22 @@
 import Image from "next/image";
+import DotGrid from "../layout/DotGrid";
 
-const Hero = () => {
+const Hero: React.FC = () => {
   return (
-    <>
-      <div className=" mt-24 mb-16 pb-6 sm:pb-8 lg:pb-12">
+    <div className="relative overflow-hidden">
+      {/* Dot Grid Background */}
+      <div className="absolute inset-0 z-0">
+        <DotGrid
+          spacing={100}
+          dotSize={2}
+          dotClass="text-zinc-200 dark:text-zinc-600"
+          direction="up"
+          speed={5}
+        />
+      </div>
+
+      {/* Hero Content */}
+      <div className="relative z-10 mt-24 mb-16 pb-6 sm:pb-8 lg:pb-12">
         <section className="mx-auto max-w-screen-2xl px-4 md:px-8">
           <div className="mb-8 flex flex-wrap justify-between md:mb-16">
             <div className="mb-6 flex w-full flex-col justify-center sm:mb-12 lg:mb-0 lg:w-1/3 lg:pb-24 lg:pt-48">
@@ -26,7 +39,6 @@ const Hero = () => {
                 <Image
                   src="/1.webp"
                   priority
-                  // loading="lazy"
                   width={512}
                   height={512}
                   alt="me"
@@ -40,7 +52,6 @@ const Hero = () => {
                   priority
                   width={512}
                   height={512}
-                  // loading="lazy"
                   alt="laptop"
                   className="h-full w-full object-cover object-center"
                 />
@@ -49,7 +60,7 @@ const Hero = () => {
           </div>
         </section>
       </div>
-    </>
+    </div>
   );
 };
 
