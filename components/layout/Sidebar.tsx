@@ -85,11 +85,16 @@ const SideBar: React.FC<SideBarProps> = ({ isMenuOpen, close }) => {
                   CONTACT
                 </a>
               </li>
-              {/* <li className="relative">
-                <a onClick={close} href="/resume.pdf" className={MenuItemStyle}>
+              <li className="relative">
+                <a 
+                  href="/Trilochan_s_Resume.pdf" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={MenuItemStyle}
+                >
                   RESUME
                 </a>
-              </li> */}
+              </li>
             </ul>
           </nav>
         </div>

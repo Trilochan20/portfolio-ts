@@ -22,71 +22,77 @@ interface Skill {
 
 const MySkills: React.FC = () => {
   const data = {
-    title: "Offer more benefits here",
-    desc: "I bring a diverse skill set to the table, allowing me to tackle a wide range of challenges in the tech world.",
+    title: "Core Competencies",
+    desc: "I bring 8+ years of experience in full-stack development, data engineering, and cloud architecture, with expertise across the entire development lifecycle.",
     bullets: [
       {
-        title: "Web Application Development",
-        desc: "Crafting responsive web applications with a focus on user experience.",
+        title: "Backend & API Development",
+        desc: "Building scalable REST APIs and backend systems using Node.js, FastAPI, and Express with PostgreSQL and Neo4j.",
+        icon: (
+          <FaServer className="h-6 w-6 text-gray-900 dark:text-gray-500" />
+        ),
+      },
+      {
+        title: "Full-Stack Web Applications",
+        desc: "Developing high-performance web applications with Next.js, React, TypeScript, and modern frontend tools.",
         icon: (
           <FaLaptopCode className="h-6 w-6 text-gray-900 dark:text-gray-500" />
         ),
       },
       {
-        title: "Mobile Application Development",
-        desc: "Building powerful mobile apps using the latest technologies and tools.",
+        title: "Data Engineering & Pipelines",
+        desc: "Architecting data ingestion pipelines with Python, Pandas, and enforcing data quality with Pandera/Pydantic.",
         icon: (
           <FaMobileAlt className="h-6 w-6 text-gray-800 dark:text-gray-500" />
         ),
-      },
-      {
-        title: "Cloud Architecture Design",
-        desc: "Creating efficient and scalable cloud architectures for your projects.",
-        icon: <FaServer className="h-6 w-6 text-gray-800 dark:text-gray-500" />,
       },
     ] as BulletItem[],
   };
 
   const skills: Skill[] = [
     {
-      name: "HTML & CSS",
-      percentage: 85,
+      name: "JavaScript & TypeScript",
+      percentage: 90,
       gradient: "from-cyan-500 via-violet-600 to-blue-500",
     },
     {
-      name: "JavaScript",
-      percentage: 75,
-      gradient: "from-pink-500 to-rose-500",
-    },
-    {
-      name: "React & NextJS",
-      percentage: 80,
+      name: "React & Next.js",
+      percentage: 90,
       gradient: "from-cyan-500 to-blue-500",
     },
-    { name: "NodeJS", percentage: 60, gradient: "from-indigo-500 to-blue-500" },
     {
       name: "Python",
-      percentage: 70,
+      percentage: 85,
       gradient: "from-indigo-500 via-violet-600 to-blue-500",
     },
     {
-      name: "Flask",
-      percentage: 60,
-      gradient: "from-fuchsia-500 via-violet-600 to-pink-500",
+      name: "Node.js & Express",
+      percentage: 85,
+      gradient: "from-pink-500 to-rose-500",
     },
     {
       name: "FastAPI",
-      percentage: 50,
+      percentage: 85,
       gradient: "from-fuchsia-500 to-cyan-500",
     },
     {
-      name: "Flutter",
-      percentage: 50,
+      name: "PostgreSQL & SQL",
+      percentage: 85,
+      gradient: "from-indigo-500 to-blue-500",
+    },
+    {
+      name: "Neo4j & Graph Databases",
+      percentage: 80,
       gradient: "from-blue-600 to-violet-600",
     },
     {
-      name: "React-Native",
-      percentage: 40,
+      name: "Docker & AWS",
+      percentage: 80,
+      gradient: "from-fuchsia-500 via-violet-600 to-pink-500",
+    },
+    {
+      name: "Redis & Data Engineering",
+      percentage: 75,
       gradient: "from-fuchsia-600 to-pink-600",
     },
   ];

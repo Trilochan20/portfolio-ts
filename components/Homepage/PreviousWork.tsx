@@ -22,10 +22,6 @@ const PreviousWorkSection: React.FC = () => {
           >
             <h3 className="text-2xl font-bold tracking-widest mb-6">
               Zombieverse.gg
-              <sup className="text-xs dark:text-orange-400 text-orange-700">
-                {" "}
-                [ongoing]
-              </sup>
             </h3>
             <p className="text-lg leading-normal font-jose">
               Developed <Mark>Zombieverse.gg</Mark>, a React-based NFT trading
@@ -52,10 +48,6 @@ const PreviousWorkSection: React.FC = () => {
           >
             <h3 className="text-2xl font-bold tracking-widest mb-6">
               Bandita's Healing Space
-              <sup className="text-xs dark:text-orange-400 text-orange-700">
-                {" "}
-                [finished]
-              </sup>
             </h3>
             <p className="text-lg leading-normal font-jose">
               Developed <Mark>Bandita's Healing Space</Mark>, a portfolio and
@@ -81,9 +73,6 @@ const PreviousWorkSection: React.FC = () => {
           >
             <h3 className="text-2xl font-bold tracking-widest mb-6">
               Circles
-              <sup className="text-xs dark:text-orange-400 text-orange-700">
-                [ongoing]
-              </sup>
             </h3>
             <p className="text-lg leading-normal font-jose">
               Developed <Mark>Circles</Mark>, an ongoing project on Flutter for

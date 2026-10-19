@@ -37,12 +37,13 @@ const AboutMeSection: React.FC = () => {
       <SectionHeader
         id="about"
         pretitle="Meet the Developer"
-        title="Full-Stack Developer & Cloud Architect"
+        title="Senior Software Engineer & Data Engineer"
       >
-        I specialize in creating innovative front-end applications using HTML,
-        CSS, JavaScript and frameworks like React, Next.js, NodeJs, Python and
-        Flask. A WordPress expert, I also work with databases like MongoDB,
-        Supabase and Firebase.
+        I specialize in building scalable web applications, backend systems, and 
+        data-intensive platforms. Expert in Next.js, React, Node.js, PostgreSQL, 
+        Python, FastAPI, and Neo4j. Experienced in designing APIs, optimizing 
+        databases, building data ingestion pipelines, and deploying production 
+        systems with Docker and cloud platforms.
       </SectionHeader>
       <div className="py-6 sm:py-8 lg:py-12">
         <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
@@ -50,37 +51,37 @@ const AboutMeSection: React.FC = () => {
             <SkillCard
               icon={<FaList />}
               title="Full-Stack Development"
-              description="I specialize in creating innovative web applications with expertise in HTML, CSS, JavaScript, Python, and frameworks like React, Next.js, and Flask."
-            />
-
-            <SkillCard
-              icon={<FaCloud />}
-              title="Cloud Architecture"
-              description="I have experience with AWS technologies such as S3, Lambda, EC2 Instances, Lightsail, and Elastic Beanstalk to design and deploy scalable and secure cloud solutions."
-            />
-
-            <SkillCard
-              icon={<FaWordpress />}
-              title="WordPress Expertise"
-              description="I have developed a mastery of WordPress, harnessing the power of this content management system to create feature-rich websites."
+              description="Expert in building scalable web applications using Next.js, React, Node.js, TypeScript, and modern JavaScript frameworks with a focus on performance and user experience."
             />
 
             <SkillCard
               icon={<FaDatabase />}
-              title="Database Management"
-              description="I work with databases like Supabase and Firebase to ensure data is stored and accessed efficiently in my applications."
+              title="Data Engineering"
+              description="Architect and maintain data engineering platforms using Python, FastAPI, PostgreSQL, and Neo4j. Build ingestion pipelines and enforce data quality with Pandera/Pydantic validation."
             />
 
             <SkillCard
-              icon={<FaGamepad />}
-              title="Gaming and Manga Enthusiast"
-              description="Beyond work, I'm passionate about gaming, manga, and anime. I also enjoy staying active through workouts, exploring new places, and keeping up with the latest tech trends."
+              icon={<FaCloud />}
+              title="Cloud & DevOps"
+              description="Deploy and maintain production systems on AWS (EC2, Lambda, S3, CloudFront, Route53) using Docker, Railway, Vercel, and GitHub Actions for CI/CD automation."
             />
 
             <SkillCard
               icon={<FaLaptopCode />}
-              title="Tech Enthusiast"
-              description="I'm always eager to learn and stay up to date on the latest trends in the tech world, bringing a positive attitude and collaborative mindset to every project."
+              title="Backend Systems"
+              description="Design and optimize RESTful APIs using Node.js, Express, FastAPI, and PostgreSQL. Expert in database query optimization and system architecture."
+            />
+
+            <SkillCard
+              icon={<FaWordpress />}
+              title="AI & API Integration"
+              description="Integrate AI capabilities with OpenAI API and build web scraping solutions using httpx, BeautifulSoup, and lxml for data acquisition workflows."
+            />
+
+            <SkillCard
+              icon={<FaGamepad />}
+              title="Beyond Code"
+              description="Passionate about gaming, manga, and anime. Enjoy staying active through workouts, exploring new places, and keeping up with the latest tech trends."
             />
           </div>
         </div>

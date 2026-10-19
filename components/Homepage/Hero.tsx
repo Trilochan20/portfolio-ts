@@ -28,9 +28,10 @@ const Hero: React.FC = () => {
               </h1>
 
               <p className="max-w-md leading-relaxed text-gray-500 dark:text-gray-300 xl:text-lg font-jose">
-                A Full-stack dev & cloud architect passionate about React,
-                Next.js, Python, and WordPress. Skilled in HTML, CSS, JS,
-                Python, Firebase. Avid gamer & tech enthusiast. Let's connect!
+                Senior Software Engineer with 8+ years of experience building scalable web applications, 
+                backend systems, and data-intensive platforms. Strong full-stack foundation in Next.js, 
+                React, Node.js, and PostgreSQL, with recent specialization in Python, FastAPI, Neo4j, 
+                and data engineering.
               </p>
             </div>
 

@@ -1,191 +1,169 @@
 [
   {
-    "time": "June 2017 to May 2018",
-    "title": "Ethnic Republic",
+    "time": "July 2026 – Present",
+    "title": "Tracn Inc. - Delaware, USA",
     "body": [
-      "Acquired proficiency in HTML, CSS, and JavaScript fundamentals. Gained hands-on experience in deploying and managing CMS platforms, specifically WordPress and OpenCart, on Apache servers. Successfully integrated the PayPal payment gateway and developed a custom-designed blog.",
-      "Engineered an OpenCart-based e-commerce platform for EthnicRepublic, specializing in hand-painted sarees and ethnic apparel."
+      "Data Engineer working remotely from Bhubaneswar. Architect and maintain the company's data engineering platform (Python, FastAPI, PostgreSQL, Neo4j) powering ingestion, storage, and retrieval of heterogeneous, graph-structured data.",
+      "Build ingestion and transformation pipelines that normalize data from APIs, structured sources, and web-based acquisition into a consistent, queryable format.",
+      "Enforce data quality with Pandera/Pydantic-based validation, along with provenance and audit trails that trace every record back to its source.",
+      "Ship internal Streamlit tools for pipeline operations, data review, and QA, streamlining day-to-day operational workflows.",
+      "Cover ingestion workflows with offline, fixture-based automated tests, removing reliance on live external sources during development.",
+      "Containerize and deploy services with Docker on Railway for repeatable, maintainable production releases."
     ]
   },
   {
-    "time": "January 2018",
-    "title": "ShreeMarbles.in",
+    "time": "January 2026 – June 2026",
+    "title": "Mentibus Inc. - San Francisco, CA, USA",
     "body": [
-      "Developed a comprehensive static website for ShreeMarbles in January 2018.",
-      "Implemented Google AMP (Accelerated Mobile Pages) technology, optimizing web pages for enhanced loading speed and performance on mobile devices.",
-      "The ShreeMarbles project facilitated significant advancement in web development skills and provided insights into mobile-first optimization strategies."
+      "Fullstack Engineer working remotely from Bhubaneswar. Built and maintained full-stack applications using Next.js, TypeScript, Node.js, and PostgreSQL, continuing the architecture and development patterns established at Yadara.",
+      "Developed responsive frontend features and backend APIs using Next.js and TypeScript, with PostgreSQL as the primary data layer.",
+      "Designed and optimized database queries and application data flows for production features.",
+      "Worked across the full application stack, from UI and API development to database design and deployment.",
+      "Contributed to production systems through feature development, debugging, code reviews, and technical improvements.",
+      "Company acquired by Tracn Inc. in June 2026."
     ]
   },
   {
-    "time": "May 2018 to December 2018",
-    "title": "Ethnic Republic",
+    "time": "August 2024 – December 2025",
+    "title": "Yadara LLC - Austin, TX, USA",
     "body": [
-      "Expanded technical skills to include React and Firebase. Executed a complete overhaul of the Ethnic Republic website using React, migrating the e-commerce platform from OpenCart to a React-Firebase architecture.",
-      "Implemented state management using React's Context API, gaining proficiency in handling complex application states. Explored Single Page Application (SPA) architecture and its SEO implications.",
-      "Acquired knowledge in technical SEO fundamentals. To enhance performance and SEO, migrated the entire e-commerce platform from Create React App (CRA) to server-side rendering (SSR) using Create Razzle App.",
-      "Successfully integrated the PayUMoney payment gateway, ensuring secure and efficient transactions for customers."
+      "Senior Fullstack Engineer working remotely from Bhubaneswar. Maintained a high-traffic ticket marketplace using Next.js 14, Node.js, PostgreSQL, OpenSearch, and AWS. Integrated new features.",
+      "Set up OpenSearch to index 70,000+ event pages with geolocation-based search, improving result relevance and reducing load times by 40%.",
+      "Optimized slow SQL queries and added proper indexes, cutting query execution time by 55% for reporting dashboards.",
+      "Migrated frontend components to Next.js Server Components, improving Google PageSpeed scores from 50 to 80+ and making development 25% faster.",
+      "Deployed Dockerized microservices on AWS EC2 with Load Balancers.",
+      "Integrated real-time inventory syncing with VividSeats, StubHub Intl, and HelloTickets to keep seat availability accurate.",
+      "Created custom SVG seat maps for venues without third-party maps, improving user experience and conversion rates.",
+      "Led code reviews, sprint planning, and mentored junior developers on TypeScript best practices and testing."
     ]
   },
   {
-    "time": "October 2018",
-    "title": "Input Output Electronics",
+    "time": "December 2018 – July 2024",
+    "title": "Abtris Consulting and Labs - Bhubaneswar, Odisha",
     "body": [
-      "Collaborated with Input Output Electronics in October 2018, focusing on WordPress and WooCommerce implementation to enhance their online presence and e-commerce capabilities.",
-      "Optimized the website for improved user experience and implemented Cash on Delivery (COD) payment method to diversify payment options."
+      "Fullstack Developer building and maintaining production web applications using Next.js, Gatsby, React, Node.js, PostgreSQL, and AWS across multiple client and internal projects.",
+      "Developed high-performance and SEO-focused applications, achieving improvements of up to 50% in page load times and 30% in organic search performance.",
+      "Built data-driven admin dashboards and content management systems using React, PostgreSQL, Supabase, Firebase, and BigQuery, including applications handling 10,000+ content items."
     ]
   },
   {
-    "time": "December 2018",
-    "title": "Abtris Consulting",
+    "time": "June 2017 – November 2018",
+    "title": "Ethnic Republic - Bhubaneswar, India",
     "body": [
-      "Developed Abtris Consulting's website in December 2018, focusing on enhancing online presence and user engagement through an interactive contact form.",
-      "Utilized HTML, CSS, and jQuery to create a visually appealing and functional website. Integrated JavaScript libraries such as Particle.js and Owl Carousel to implement dynamic and interactive elements.",
-      "This project facilitated the refinement of front-end development skills and exploration of innovative user engagement techniques in web design."
+      "Web Developer and Admin building and maintaining e-commerce applications using OpenCart, WordPress, and React, including PayPal and PayUMoney payment integrations.",
+      "Migrated the storefront from OpenCart to a React-based application, implementing Redux/Context API state management and server-side rendering with a focus on performance and SEO."
     ]
   },
   {
-    "time": "December 2018",
-    "title": "CraftCollaz.org",
+    "time": "2026",
+    "title": "Data Ingestion & Knowledge Graph Pipeline",
     "body": [
-      "Engaged with CraftCollaz in December 2018, specializing in WordPress-based solutions. Focused on WordPress development and e-commerce implementations using WordPress, WooCommerce, and Elementor.",
-      "Leveraged Elementor's drag-and-drop interface to create multiple custom pages, enhancing design flexibility and customization capabilities.",
-      "Integrated PayPal payment gateway to facilitate secure online transactions. This project enhanced proficiency in WordPress development and expanded knowledge in e-commerce solutions and payment gateway integration."
+      "Personal prototype project that ingests and normalizes multi-source data into a Neo4j knowledge graph, with PostgreSQL-backed validation and source-level provenance.",
+      "Proved out the design with offline-fixture testing and a lightweight Streamlit review UI; the architecture was later adopted as the foundation of Tracn Inc.'s production data engineering platform."
     ]
   },
   {
-    "time": "January 2019 - March 2019",
-    "title": "QR Menus For Restaurants",
-    "body": [
-      "From January to March 2019, contributed to the development of QR Menus For Restaurants, an innovative solution for streamlining dining experiences. Responsibilities included front-end development utilizing Google-AMP (Accelerated Mobile Pages) for optimized performance.",
-      "Implemented Firebase as the database solution, ensuring real-time data synchronization and seamless updates. Developed a React-based dashboard with menu editing functionalities, providing restaurant owners with an efficient interface for menu management.",
-      "This project enhanced skills in front-end technologies and real-time database management, particularly in creating responsive and high-performance web applications."
-    ]
-  },
-  {
-    "time": "June 2019 - September 2019",
-    "title": "Experience Edge",
-    "body": [
-      "Acquired proficiency in GatsbyJS for high-performance website development. Successfully engineered a high-speed, responsive website for a real estate company, demonstrating expertise in GatsbyJS and UI design principles.",
-      "Explored D3.js for data visualization, expanding capabilities in creating interactive and informative data representations for web applications."
-    ]
-  },
-  {
-    "time": "November 2019",
-    "title": "Petandics",
-    "body": [
-      "In November 2019, developed an e-commerce solution for Petandics, a company specializing in handmade pet portraits.",
-      "Implemented WordPress and WooCommerce to create a user-friendly and efficient e-commerce platform. Integrated the Stripe payment gateway to ensure secure and seamless transactions.",
-      "This project showcased expertise in e-commerce development and WordPress customization for niche markets."
-    ]
-  },
-  {
-    "time": "April 2020 - January 2021",
-    "title": "Reading Bharat",
-    "body": [
-      "Developed \"Reading Bharat,\" an online library offering books in various Indian languages including Odia, Hindi, Marathi, Tamil, Telugu, and Malayalam.",
-      "Utilized GatsbyJS and Next.js for front-end development and integrated PDF.js for in-browser PDF rendering.",
-      "Implemented a tech stack including React for UI, Firestore for data storage, and AWS services (S3, Lambda, Route53, CloudFront) for hosting and content delivery. Gained proficiency in Python programming and AWS Lambda functions.",
-      "Deployed the site on AWS infrastructure, configuring S3 for file storage, CloudFront for content delivery, Lambda for serverless functions, and Route53 for custom domain management with SSL. Developed Lambda functions to prevent Google indexing of PDF files in S3.",
-      "Implemented server-side rendering (SSR) using Next.js to enhance SEO for individual books. Utilized Google Search Console for managing page indexing and error handling, significantly improving technical SEO skills."
-    ]
-  },
-  {
-    "time": "January 2021",
-    "title": "No Touch Menu",
-    "body": [
-      "In January 2021, developed the \"No Touch Menu\" project, an evolution of the previously created QR menu using Google AMP.",
-      "Leveraged Gatsby and React to create a high-performance QR menu. Achieved sub-second loading times even on 3G connections. The website attained exceptional Lighthouse scores, with most categories scoring 100 or 99."
-    ]
-  },
-  {
-    "time": "March 2021 - Present",
+    "time": "2021 – 2023",
     "title": "Unstoppable: Mindset Builder",
     "body": [
-      "Since March 2021, have been involved in the development of \"Unstoppable: Mindset Builder,\" a cross-platform application designed for positive mindset cultivation. The app categorizes quotes from renowned personalities into various motivational themes.",
-      "Developed the web component using NextJS, creating dynamic category pages showcasing quotes from different authors, books, and topic tags. These pages provide users with a curated motivational experience.",
-      "Engineered an extensive admin dashboard enabling quote management by category, addition of new books, authors, and topic tags, and user account oversight. Implemented features for creating dynamic marketing links and bulk quote uploads.",
-      "Expanded technical skills to include SQL basics and BigQuery for analytics, PostgreSQL and Supabase for data management, and NodeJs for custom cloud functions to enhance platform functionality."
+      "Architected a motivational content platform serving 10,000+ quotes using Next.js, Node.js, PostgreSQL, and BigQuery, with an admin panel and bulk CSV/JSON workflows.",
+      "Reduced initial load time by 1.5 seconds through optimization techniques."
     ]
   },
   {
-    "time": "August 2021",
-    "title": "Madbikers",
+    "time": "2020 – 2021",
+    "title": "Reading Bharat Online Library",
     "body": [
-      "In August 2021, developed the \"Madbikers.in\" e-commerce platform using WordPress and WooCommerce. Implemented Elementor for intuitive design and user experience.",
-      "Integrated the Paytm payment gateway to ensure secure transactions and enhance user trust."
+      "Built a multilingual digital library with Gatsby, Next.js, PDF.js, and AWS Lambda.",
+      "Optimized static generation and SEO, driving a 30% increase in organic traffic.",
+      "Implemented AWS infrastructure with S3, CloudFront, Lambda, and Route53 for hosting and content delivery."
     ]
   },
   {
-    "time": "October 2021 - Present",
+    "time": "March 2021 – Present",
+    "title": "Unstoppable: Mindset Builder (Ongoing)",
+    "body": [
+      "Cross-platform application designed for positive mindset cultivation. The app categorizes quotes from renowned personalities into various motivational themes.",
+      "Developed the web component using NextJS, creating dynamic category pages showcasing quotes from different authors, books, and topic tags.",
+      "Engineered an extensive admin dashboard enabling quote management by category, addition of new books, authors, and topic tags, and user account oversight.",
+      "Implemented features for creating dynamic marketing links and bulk quote uploads.",
+      "Expanded technical skills to include SQL basics and BigQuery for analytics, PostgreSQL and Supabase for data management, and NodeJs for custom cloud functions."
+    ]
+  },
+  {
+    "time": "October 2021 – Present",
     "title": "MyFoodBook",
     "body": [
-      "In October 2021, developed \"MyFoodBook,\" a platform enabling users to create accounts and share recipes.",
-      "Engineered the front-end application using GatsbyJS and Chakra UI, focusing on user interface optimization. Developed a user dashboard using Vite and React with Ant Design components for a seamless user experience. Implemented Firebase for data management."
+      "Platform enabling users to create accounts and share recipes.",
+      "Engineered the front-end application using GatsbyJS and Chakra UI, focusing on user interface optimization.",
+      "Developed a user dashboard using Vite and React with Ant Design components for a seamless user experience.",
+      "Implemented Firebase for data management."
     ]
   },
   {
-    "time": "January 2022 - April 2022",
+    "time": "January 2022 – April 2022",
     "title": "Banner Magic",
     "body": [
-      "From January to April 2022, developed \"Banner Magic,\" a platform enabling users to connect Shopify stores, retrieve product details and images, and generate marketing banners for various platforms.",
-      "Implemented Flask for API development, acquired skills in image manipulation techniques, and gained expertise in deploying Python Flask applications on Heroku. Utilized Firestore for data management and NextJS for creating a responsive front-end."
+      "Platform enabling users to connect Shopify stores, retrieve product details and images, and generate marketing banners for various platforms.",
+      "Implemented Flask for API development and gained expertise in deploying Python Flask applications on Heroku.",
+      "Utilized Firestore for data management and NextJS for creating a responsive front-end."
     ]
   },
   {
-    "time": "February 2022 - Ongoing",
+    "time": "February 2022 – Ongoing",
     "title": "Zombieverse",
     "body": [
-      "In February 2022, initiated development on the Zombieverse project, a cutting-edge application integrating NextJS, React, Web3, cryptocurrency, and NFT technologies.",
-      "Engineered a platform enabling users to collect and trade NFTs in a gamified environment. Leveraged NextJS and React to develop a responsive and interactive user interface. Integrated Web3 technology to ensure secure transactions and NFT ownership verification.",
-      "Implemented Lottie animations to enhance visual appeal and user engagement. Integrated Metamask to facilitate secure cryptocurrency transactions, making Zombieverse a technically advanced addition to the portfolio."
+      "Cutting-edge application integrating NextJS, React, Web3, cryptocurrency, and NFT technologies.",
+      "Engineered a platform enabling users to collect and trade NFTs in a gamified environment.",
+      "Integrated Web3 technology to ensure secure transactions and NFT ownership verification.",
+      "Implemented Lottie animations to enhance visual appeal and user engagement.",
+      "Integrated Metamask to facilitate secure cryptocurrency transactions."
     ]
   },
   {
-    "time": "February 2023 - June 2023",
+    "time": "February 2023 – June 2023",
     "title": "Fresh Findings",
     "body": [
-      "From February to June 2023, developed \"Fresh Findings,\" an online platform specializing in exotic fruits and vegetables.",
-      "Utilized WordPress, WooCommerce, and Elementor to create a dynamic and user-friendly e-commerce website. Leveraged these technologies to provide an exceptional online shopping experience for customers interested in exotic produce.",
-      "This project demonstrates expertise in WordPress development and e-commerce solutions, showcasing the ability to craft compelling and functional websites for unique marketplaces."
+      "Online platform specializing in exotic fruits and vegetables.",
+      "Utilized WordPress, WooCommerce, and Elementor to create a dynamic and user-friendly e-commerce website.",
+      "Leveraged these technologies to provide an exceptional online shopping experience for customers interested in exotic produce."
     ]
   },
   {
-    "time": "June 2023 - February 2024",
+    "time": "June 2023 – February 2024",
     "title": "Stock Analysis App",
     "body": [
-      "From June 2023 to February 2024, developed the Stock Analysis App project.",
-      "Implemented React Native for mobile app development, exploring cross-platform capabilities. Utilized FastAPI in Python, leveraging its performance advantages over Flask. Successfully deployed the FastAPI application to a rendering platform.",
-      "This project demonstrates expanding expertise in mobile app development and backend technologies, reflecting a commitment to adopting emerging tech trends."
+      "Implemented React Native for mobile app development, exploring cross-platform capabilities.",
+      "Utilized FastAPI in Python, leveraging its performance advantages over Flask.",
+      "Successfully deployed the FastAPI application to a rendering platform."
     ]
   },
   {
-    "time": "October 2023 to November 2023",
+    "time": "October 2023 – November 2023",
     "title": "Bandita's Healing Space",
     "body": [
-      "Developed Bandita's Healing Space, a WordPress website serving as an online portfolio and platform for a Psychologist. The site showcases services, enables client connectivity through form submissions, and includes a blog for sharing insights and updates.",
-      "This project demonstrates proficiency in WordPress development, particularly in creating user-centric websites tailored to specific business needs. Implemented Contact Form 7 and other plugins to ensure a seamless experience for both the psychologist and their clients."
+      "WordPress website serving as an online portfolio and platform for a Psychologist.",
+      "The site showcases services, enables client connectivity through form submissions, and includes a blog for sharing insights and updates.",
+      "Implemented Contact Form 7 and other plugins to ensure a seamless experience for both the psychologist and their clients."
     ]
   },
   {
-    "time": "August 2023 - April 2024",
+    "time": "August 2023 – April 2024",
     "title": "Circles",
     "body": [
-      "Initiated development on the Circles project in August 2023.",
-      "This project involved an in-depth exploration of Flutter for cross-platform mobile application development. Concurrently expanded skillset to include UI/UX design using Figma, enhancing capabilities in creating visually appealing and user-friendly interfaces.",
-      "Circles exemplifies ongoing technical skill expansion and exploration of new development and design technologies."
+      "In-depth exploration of Flutter for cross-platform mobile application development.",
+      "Expanded skillset to include UI/UX design using Figma, enhancing capabilities in creating visually appealing and user-friendly interfaces."
     ]
   },
   {
-    "time": "February 2024 - Ongoing",
+    "time": "February 2024 – July 2024",
     "title": "Mobile Aspects",
     "body": [
-      "In February 2024, initiated work on the Mobile Aspects project, focusing on comprehensive WordPress site optimization and migration.",
-      "Key accomplishments include:",
+      "Comprehensive WordPress site optimization and migration project.",
       "Executed a full WordPress upgrade, including theme modernization and plugin updates.",
       "Implemented a complete UI/UX overhaul, resulting in a contemporary and visually appealing design.",
       "Optimized site performance, achieving a 50% reduction in load times through various technical improvements.",
-      "Successfully migrated the entire WordPress installation from the original hosting service to a new provider, ensuring minimal downtime and data integrity.",
-      "This project showcases proficiency in WordPress development, performance optimization, and seamless hosting migrations."
+      "Successfully migrated the entire WordPress installation from the original hosting service to a new provider, ensuring minimal downtime and data integrity."
     ]
   }
 ]
